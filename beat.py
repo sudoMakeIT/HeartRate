@@ -29,11 +29,13 @@ def rmssd(lst):
 	return  math.sqrt(lstAvg(lst))
 
 
+#debug
+debug = False
+
 #face detection
 cascPath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 video_capture = cv2.VideoCapture(0)
-
 
 # Webcam Parameters
 realWidth = 512
@@ -127,7 +129,7 @@ while True:
 			bpmBufferIndex = (bpmBufferIndex + 1) % bpmBufferSize
 
 		#mostrar gráfico
-		if bufferIndex % 3600 == 0:
+		if bufferIndex % 3600 == 0 and debug:
 			plt.plot(allBpmBuffer)
 			plt.ylabel('some numbers')
 			plt.show()
