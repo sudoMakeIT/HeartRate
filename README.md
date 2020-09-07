@@ -6,7 +6,7 @@ This is a simple scipt that uses your webcam to measure your heart beat in realt
 
 ## Visuals
 
-![demoGif] ( https://giphy.com/gifs/mBwZqE8rFjo2tc7yPi )
+![demoGif](exGif.gif)
 
 ## Installation && Usage
 
