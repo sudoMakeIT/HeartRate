@@ -17,8 +17,17 @@ You will need to install the following dependencies:
 * statistics
 * matplotlib
 
+Or you can use the environment file included in the repository.
+
+```bash
+conda env update --file environment.yml
+conda activate heartRate
+```
+
+
 To run the script
 
-> python beat.py
-
+```bash
+python beat.py
+```
 To close the scipt just press 'q'

@@ -1,7 +1,6 @@
 #imports
 import numpy as np
 import cv2
-import sys
 import statistics as s
 import math
 import matplotlib.pyplot as plt
@@ -159,3 +158,6 @@ while True:
 
 	if cv2.waitKey(1) & 0xFF == ord('q'):
 		break
+
+video_capture.release()
+cv2.destroyAllWindows()

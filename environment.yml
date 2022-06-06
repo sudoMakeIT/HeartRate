@@ -1,0 +1,9 @@
+name: heartrate
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib=3.5.1
+  - numpy=1.22.3
+  - opencv=4.5.5
+  - python=3.10.4
